@@ -1,0 +1,499 @@
+/*iPhone 6*/
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+
+	body {
+		margin: 10px;
+	}
+
+
+	.title {
+	left: 0%;
+	position: relative;
+/*	border: solid 2px black;
+*/	font-size: 18pt;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	width: 100%;
+	height: auto;
+	font-weight: bold;
+	text-align: center;
+	color: #0ff;
+	background-color: black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/*color: #00868b;*/ /*teal*/
+}
+
+
+.title span {
+	background-color: white;
+
+}
+
+#spacing {
+	display: none;
+}
+
+	.name span {
+	left: 0;
+	z-index: 2;
+	top: 0;
+	position: fixed;
+	/*border: solid violet 2px;*/
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Montserrat Subrayada', sans-serif;
+    color: black;
+
+	}
+
+	.title span {
+	background-color: black;
+
+}
+
+	/*about me*/
+	div.container {
+	margin-top: 50px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-color: black;
+	color: #0ff;
+	/*border: blue solid 1pt;*/
+	}
+
+	 p.introduction:first-letter {
+	 font-size: 60px;
+	 line-height: 30px;
+	 padding-top: 15px; 
+	 padding-right: 8px;
+	 padding-bottom: 10px;
+	 font-family: 'Times New Roman', serif;
+	}
+
+
+	.about {
+	position: relative;
+	margin-bottom: 0px;
+/*	border: solid yellow 1px;
+*/	width: 95%;
+	height: auto;
+	text-align: left;
+	display: inline-block; 
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 10pt;
+	line-height: 22pt;
+	}
+
+	.heroGuerpic {
+	top: 15px;
+	position: relative;
+/*	border: solid 1pt black;
+*/	width: 100%;
+	height: auto;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+
+	.intrigue {
+	bottom: 20%;
+	position: relative;
+/*	border: solid green 1px;
+*/	width: 100%;
+	height: auto;
+	text-align: left;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 10pt;
+	left: 0;
+}
+
+	/*today*/
+
+	#today {
+	position: relative;
+	height: auto;
+	width: 100%;
+/*	border: solid green 1pt;
+*/	margin-top: 25px;
+	margin-bottom: 25px;
+	overflow: initial;
+}
+
+	.contentToday {
+	left: 0%;
+	position: relative;
+/*	border: solid blue 1pt;
+*/	width: 100%;
+	height: auto;
+	display: inline-block; 
+	}
+
+	.contentGuernica {
+	left: 0%;
+	position: relative;
+	/*border: solid blue 2px;*/
+	width: 100%;
+	height: auto;
+	display: inline-block; 
+}
+
+	.contentPusher {
+	left: 0%;
+	position: relative;
+	/*border: solid blue 2px;*/
+	width: 100%;
+	height: auto;
+	display: inline-block; 
+/*	float: left;*/
+}
+
+#box {
+	border: none;
+	width: 100%;
+	height: auto;
+	position: relative;
+	left: 0;
+}
+
+
+.blurb {
+	display: none;
+	position: relative;
+/*	border: solid 1pt orange;
+*/	width: 100%;
+	height: auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+	line-height: 22pt;
+}
+
+
+a.text {
+	color: orange;
+}
+
+a.credit {
+	display: none;
+}
+
+	.picture {
+	position: relative;
+/*	border: solid red 1pt;
+*/	width: 100%;
+	height: auto;
+	left: 0;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+	.pictureGuer {
+	position: relative;
+/*	border: solid red 1pt;
+*/	width: 100%;
+	height: auto;
+	left: 0;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+	.picturePusher {
+	position: relative;
+/*	border: solid red 1pt;
+*/	width: 100%;
+	height: auto;
+	left: 0;
+	text-align: center;
+	margin-bottom: -10px;
+}
+
+.project {
+	left: 0;
+	position: relative;
+	display: inline-block;
+	width: 100% ;
+	height: 60px;
+	text-align: center;
+	background-color: #ffd319;
+	color: black;	
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 18pt;
+	line-height: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+/*	transition: 0.5s ease;
+*/}
+
+	.about {
+	position: relative;
+	margin-bottom: 0px;
+/*	border: solid yellow 1px;
+*/	width: 95%;
+	height: auto;
+	text-align: left;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 10pt;
+	line-height: 22pt;
+	display: none; 
+
+	}
+
+	.spacer {
+	width: 100%;
+	height: 20px;
+/*	border: 1pt green solid;
+*/	position: relative;
+}
+
+.spacerDesktop {
+	display: none;
+}
+
+
+	.heroToday {
+		height: 100%;
+		position: relative;
+/*		border: solid 1pt black;
+*/		display: block;
+		margin: auto;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	.heroGuer {
+	position: relative;
+	height: 100%;
+	/*border: solid 1pt black;*/
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.heroPusherdesktop {
+	top: 15px;
+	position: relative;
+	height: auto;
+	width: 100%;
+/*	border: solid 1pt black;
+*/	display: block;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.heroPusherdesktop2 {
+	top: -15px;
+	position: relative;
+/*	border: solid 3px red;
+*/	width: 100%;
+	height: auto;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.heroTodaydesktop {
+	position: relative;
+/*	border: solid 1pt black;
+*/	width: 100%;
+	height: 300px;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.play {
+display: none;
+}
+
+
+.thumbs {
+	position: relative;
+	display: inline-block;
+	width: 100% ;
+	height: 60px;
+	text-align: center;
+	border: none;	
+	background-color: black;
+	color: white;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 18pt;
+	line-height: 60px;
+	margin-bottom: 5px;
+/*	transition: 0.5s ease;
+*/}
+
+.making {
+	position: relative;
+	display: inline-block;
+	width: 100% ;
+	height: 60px;
+	text-align: center;
+	border: none;	
+	background: #FF007F;	
+	color: white;	
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 18pt;
+	line-height: 60px;
+	margin-bottom: 5px;
+/*	transition: 0.5s ease;
+*/}
+
+.exhibit {
+	position: relative;
+	display: inline-block;
+	width: 100% ;
+	height: 60px;
+	text-align: center;
+	background: #ffd319;
+	border: none;		
+	color: white;	
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 18pt;
+	line-height: 60px;
+	margin-bottom: 5px;
+/*	transition: 0.5s ease;
+*/}
+
+.thumbs:hover {
+	font-family: 'Times New Roman', serif;
+/*	font-size: 8pt;
+	transition: 0.5s ease-in-out;*/
+}
+
+.making:hover {
+	font-family: 'Times New Roman', serif;
+/*	font-size: 8pt;
+	transition: 0.5s ease-in-out;*/
+}
+
+.exhibit:hover {
+	font-family: 'Times New Roman', serif;
+/*	font-size: 8pt;
+	transition: 0.5s ease-in-out;*/
+}	
+
+	#today {
+	position: relative;
+	height: auto;
+	width: 100%;
+	/*border: solid green 1pt;*/
+	right: 0;
+	left: 0;
+	overflow: initial;
+	display: inline-block;
+}
+
+	/*guernica*/
+	#guernica {
+	position: relative;
+	height: auto;
+	width: 100%;
+/*	border: solid green 1pt;
+*/	right: 0;
+	left: 0;
+	overflow: initial;
+	display: inline-block;
+
+
+}
+
+/*pusher*/
+#pusher {
+	position: relative;
+	height: auto;
+	width: 100%;
+/*	border: solid green 1pt;
+*/	right: 0;
+	left: 0;
+	margin: auto;
+	overflow: initial;
+	display: inline-block;
+
+}
+
+a.redEmail:link {
+	text-decoration: none;
+	color: black;
+}
+
+.email {
+/*	z-index: 2;
+*/	bottom: 15%;
+	position: relative;
+	width: 100%;
+	height: auto;
+	text-align: right;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	right: -20px;
+	/*border: solid 1pt green;*/
+/*	color: white;
+    text-shadow:
+    -1px -1px 0 #0ff,
+    1px -1px 0 #0ff,
+    -1px 1px 0 #0ff,
+    1px 1px 0 #0ff;*/
+}
+
+.footer {
+	position: relative;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+	text-align: right;
+	color: black;
+	line-height: 40px;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+/*	border: solid 1pt red;
+*/}
+
+.footerShift {
+	position: relative;
+	right: -20px;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+	text-align: right;
+	color: black;
+	line-height: 40px;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+
+}
+
+.square {
+	font-size: 3pt;
+}
+
+.project:hover {
+	font-family: 'Times New Roman', serif;
+/*	font-size: 8pt;
+	transition: 0.5s ease-in-out;*/
+}
+
+
+.spacerDesktop {
+	width: 100%;
+	height: 140px;
+/*	border: 1pt green solid;
+*/	position: relative;
+}
+
+
+	}
+
+
+}
+
